@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Space+Mono:wght@400;700&display=swap');
+
+.App {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: 'Roboto', sans-serif;
+
+  --dark-purple: #4d246f;
+  --purple: #8c5ca4;
+  --dark-blue: #03002E;
+  --grey-blue: #afafd7;
+  --light-blue: #59b7e9;
+  --grey: #99b7cf;
+
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(var(--dark-blue), black);
+
+  color: var(--purple);
+}
+
+.main {
+  width: 1400px;
+  height: 700px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-content {
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+
+  width: 700px;
+  height: 600px;
+  padding: 200px 10px 50px 150px;
+}
+
+.spinning-cube {
+  width: 600px;
+  height: 600px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cube-face {
+  height: 100%;
+
+  border: 2px solid var(--dark-blue);
+  outline: 2px solid var(--dark-blue);
+}
+
+.project-name {
+  height: 50%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.title-sudo {
+  font-size: 65px;
+  letter-spacing: 5px;
+
+  border-bottom: 6px solid white;
+}
+
+.title-cul {
+  padding-left: 100px;
+  font-size: 95px;
+  letter-spacing: 5px;
+}
+
+.subtitle {
+  margin-top: 25px;
+  font-size: 25px;
+
+  font-weight: normal;
+  letter-spacing: 6px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  height: 50%;
+  width: 70%;
+
+  padding-top: 30px;
+}
+
+.nav-button {
+  background-color: var(--purple);
+  color: white;
+
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  margin-bottom: 40px;
+
+  outline: 1px solid white;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav-button > div {
+  color: white;
+
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+h2, h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.github-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 12px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.github-button:hover {
+  background-color: #555;
+}

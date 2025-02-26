@@ -1,0 +1,8 @@
+# ./make grayscale image.png /Grayscale
+
+# ./make blackwhite image.png /Black or White
+
+# ./make bright image.png /Contrast
+
+# ./make dark image.png /Contrast
+

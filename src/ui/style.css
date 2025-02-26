@@ -1,0 +1,20 @@
+.button-active {
+    /* Styles for active button */
+    background-color: #4CAF50; /* Example active color */
+}
+
+.button-inactive {
+    /* Styles for inactive button */
+    background-color: #757575; /* Example inactive color */
+}
+
+
+button.changed-number {
+    background-image: none; /* Remove any background image */
+    background-color: pink; /* Light salmon color for changed numbers */
+    color: white; /* Brown text color for changed numbers */
+}
+
+button.changed-number:hover {
+    background-color: violet; /* Slightly darker salmon on hover */
+}
